@@ -1,6 +1,7 @@
 import React from "react";
 import { Router, Link } from "@reach/router";
 import "./App.css";
+import "sakura.css";
 
 import BlogList from "./components/BlogList";
 import AddPost from "./components/AddPost";
@@ -11,7 +12,7 @@ function App() {
     <div>
       <nav>
         <Link to="/">BlogList</Link>
-        <br />
+        {"  "}
         <Link to="/add">Add</Link>
       </nav>
       <Router>
